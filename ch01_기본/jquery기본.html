@@ -13,7 +13,13 @@
   </head>
   <body>
     <h1 id="title">안녕하세요</h1>
-
+    <ul>
+      <li>1st</li>
+      <li>2nd</li>
+      <li>3rd</li>
+      <li>4th</li>
+      <li>5th</li>
+    </ul>
     <script>
       // window.onload() = function(){}; 과 유사
       $(document).ready(function () {
@@ -22,6 +28,12 @@
 
       $(() => {
         console.log("JQuery is running");
+      });
+
+      // 이벤트 메서드
+      // document.querySelector().addEventListener('event type', function(){});
+      $("#title").on("click", function () {
+        console.log("title clicked");
       });
     </script>
   </body>
