@@ -1,0 +1,12 @@
+body {
+  background-color: lightgrey;
+}
+
+img {
+  margin: auto;
+}
+
+.your-class {
+  margin: 0 30px;
+  text-align: center;
+}
